@@ -711,6 +711,23 @@ h2 em {
   font-size: 17px;
 }
 
+.client-copy .eyebrow {
+  margin-bottom: 17px;
+}
+
+.client-copy h2 {
+  margin-bottom: 14px;
+  font-size: clamp(37px, 4vw, 51px);
+}
+
+.client-copy > p:last-child {
+  max-width: 450px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
 .button-outline {
   align-self: end;
   margin-bottom: 5px;
@@ -1073,7 +1090,6 @@ h2 em {
 
   .hero-visual {
     height: 390px;
-  
     margin-right: 0;
   }
 
